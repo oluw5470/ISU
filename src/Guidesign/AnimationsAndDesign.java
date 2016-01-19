@@ -18,18 +18,15 @@ public class AnimationsAndDesign extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jLabel1 = new javax.swing.JLabel();
         jMenuBar1 = new javax.swing.JMenuBar();
         muNew = new javax.swing.JMenu();
         mnuSave = new javax.swing.JMenu();
         mnuLoad = new javax.swing.JMenu();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setMaximumSize(new java.awt.Dimension(2142, 1119));
-        setMinimumSize(new java.awt.Dimension(2142, 1119));
-
-        jLabel1.setIcon(new javax.swing.ImageIcon("ISSDCVS01\\students\\oluw5470\\Documents\\My Pictures\\SeyiIsu.png")); // NOI18N
-        jLabel1.setText("jLabel1");
+        setMaximumSize(new java.awt.Dimension(400, 400));
+        setMinimumSize(new java.awt.Dimension(400, 400));
+        setPreferredSize(new java.awt.Dimension(400, 4000));
 
         muNew.setText("New");
         muNew.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -61,15 +58,11 @@ public class AnimationsAndDesign extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addComponent(jLabel1)
-                .addGap(0, 184, Short.MAX_VALUE))
+            .addGap(0, 400, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addComponent(jLabel1)
-                .addGap(0, 19, Short.MAX_VALUE))
+            .addGap(0, 379, Short.MAX_VALUE)
         );
 
         pack();
@@ -123,7 +116,6 @@ public class AnimationsAndDesign extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JLabel jLabel1;
     private javax.swing.JMenuBar jMenuBar1;
     private javax.swing.JMenu mnuLoad;
     private javax.swing.JMenu mnuSave;
